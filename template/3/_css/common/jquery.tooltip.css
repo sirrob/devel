@@ -1,0 +1,20 @@
+#tooltip {
+    position: absolute;
+    z-index: 3000;
+    border: 1px solid gainsboro;
+    background-color: #eee;
+    padding: 5px;
+    opacity: 0.85;
+    -webkit-border-radius: 7px; 
+    -moz-border-radius: 7px; 
+    border-radius: 7px; 
+}
+
+#tooltip h3{
+    color: #848484;
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+#tooltip h3, #tooltip div { margin: 0; }

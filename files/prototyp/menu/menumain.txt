@@ -1,0 +1,8 @@
+URL|TYTUL|TARGET
+sklep,1,witamy_w_gomez.htm|Sklep|_self
+cms,6,o_nas.htm|Firma|_self
+cms,9,kontakt.htm|Kontakt|_self
+cms,14,jak_kupowac_.htm|Jak Kupować|_self
+cms,40,regulamin.htm|Regulamin|_self
+cms,48,brends.htm|Brands|_self
+sklep,szukaj.htm?a=s&sale=1|SALE|_self

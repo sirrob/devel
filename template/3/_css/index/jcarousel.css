@@ -1,0 +1,85 @@
+.jcarousel-skin-brands .jcarousel-container {
+	background: #ffffff;
+}
+
+.jcarousel-skin-brands .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-brands .jcarousel-container-horizontal {
+    width: 850px;
+    padding: 5px 70px;
+    border-top: 1px dashed #cdcecf;
+    border-bottom: 1px dashed #cdcecf;
+}
+
+.jcarousel-skin-brands .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-brands .jcarousel-clip-horizontal {
+    width:  850px;
+    height: 60px;
+}
+
+.jcarousel-skin-brands .jcarousel-item { width: 125px; height: 60px; }
+
+.jcarousel-skin-brands .jcarousel-item-horizontal { margin-left: 0; margin-right: 21px; }
+.jcarousel-skin-brands .jcarousel-direction-rtl .jcarousel-item-horizontal { margin-left: 21px; margin-right: 0; }
+
+.jcarousel-skin-brands .jcarousel-item-placeholder { background: #fff; color: #000; }
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-brands .jcarousel-next-horizontal {
+    position: absolute;
+    top: 22px;
+    right: 0px;
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+    background: transparent url(../../images/scroll_right.png) no-repeat;
+}
+
+.jcarousel-skin-brands .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(../../images/scroll_left.png);
+}
+
+.jcarousel-skin-brands .jcarousel-next-horizontal:hover,
+.jcarousel-skin-brands .jcarousel-next-horizontal:focus { }
+
+.jcarousel-skin-brands .jcarousel-next-horizontal:active { }
+
+.jcarousel-skin-brands .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-brands .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-brands .jcarousel-next-disabled-horizontal:focus,
+.jcarousel-skin-brands .jcarousel-next-disabled-horizontal:active { cursor: default; }
+
+.jcarousel-skin-brands .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 22px;
+    left: 0px;
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+    background: transparent url(../../images/scroll_left.png) no-repeat;
+}
+
+.jcarousel-skin-brands .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background-image: url(../../images/scroll_right.png);
+}
+
+.jcarousel-skin-brands .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-brands .jcarousel-prev-horizontal:focus {}
+
+.jcarousel-skin-brands .jcarousel-prev-horizontal:active {}
+
+.jcarousel-skin-brands .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-brands .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-brands .jcarousel-prev-disabled-horizontal:focus,
+.jcarousel-skin-brands .jcarousel-prev-disabled-horizontal:active { cursor: default; }

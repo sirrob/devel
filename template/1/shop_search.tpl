@@ -1,0 +1,1 @@
+<!--{IT_MSG}--><div>{MSG}</div><!--/{IT_MSG}-->

@@ -1,0 +1,30 @@
+#breadcrumb { margin: 20px 0px; }
+#breadcrumb span { text-decoration: underline; }
+#breadcrumb a { color: #969696; text-decoration: none; }
+#breadcrumb a:hover { text-decoration: none; color: #a7131c; }
+
+#top-banner { }
+#long-left { width: 791px; height: 375px; float: left; margin: 0px 5px 0px 0px; }
+#short-right { width: 194px; height: 375px; float: left; margin: 0px 0px 0px 0px; }
+
+#small-banners {
+    /*margin-bottom: 10px; */
+    position: relative;
+    left: -2px;
+    /*border: solid 1px red;*/
+    width: 996px;
+    clear: both;
+}
+/*.box { background-color: rgba(0, 0, 0, 0.5); width: 194px; height: 190px; padding: 0px; float: left; margin: 0px 5px 5px 0px; }*/
+.box { background-color: rgba(0, 0, 0, 0.5); width: 194px; height: 190px; padding: 0px; float: left; margin: 6px 5px 8px 0px; }
+.box:last-child { margin: 6px 0px 5px 0px; }
+
+.ne-content { padding-bottom: 0px; height: 373px; width:366px;padding: 12px}
+.ne-content h1 { color: #969696; margin-bottom: 10px; }
+
+.ne-img { float: right; width: 193px; }
+
+.ne-baners {width: 996px;}
+.ne-baners a { display: block; float: left; margin-right: 6px;}
+/*.ne-baners a:first-child { display: block; float: left; margin-right: 6px;}*/
+.ne-baners a:nth-child(5n+5) { margin-right: 0px; }

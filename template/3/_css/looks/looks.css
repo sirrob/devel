@@ -1,0 +1,158 @@
+.ImagesContainer 
+{
+	display: none;
+		z-index: 900;
+
+}
+
+.MainImage
+{
+	display: block;
+	position: relative;
+	width: 990px;
+	height: 460px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+.BigImg
+{
+	width:100%;
+	height: 100%;
+}
+
+.LeftArrow
+{
+	position: absolute;
+	left: 0px;
+	top: 45%;
+	width: 44px;
+	height: 47px;
+	cursor: pointer;
+
+}
+
+.RightArrow
+{
+	position: absolute;
+	left: 946px;
+	top: 45%;
+	width: 44px;
+	height: 47px;
+	cursor: pointer;
+}
+
+.ThumbImages
+{
+	display: block;
+	position: relative;
+	width: 990px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 10px;
+}
+
+.ThumbImage
+{
+	display: inline;
+	cursor: pointer;
+}
+
+
+.ThumbImage img
+{
+	width: 194px;
+	height: 194px;
+	margin-right:5px;
+
+}
+
+.ThumbImage.Last img
+{
+	width: 194px;
+	height: 194px;
+	margin-right:0px;
+
+}
+
+a.tip span 
+{
+    display: none
+}
+
+.TopCaptionText{
+	margin-left: 10px !important;
+	font-family: Tahoma, sans-serif;
+	line-height: 50px;
+	font-size: 14px;
+}
+
+.BotCaptionText{
+	margin-left:5px;
+	font-family: Tahoma, sans-serif;
+}
+
+
+a.tip:hover span 
+{
+    border: black 1px solid;
+	border-radius: 5px;
+	border-color: rgb(132,132,132);
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+	background-color: white;
+    left: 0px;
+    width: auto;
+    position: absolute;
+    top: 0px;
+	color:black;
+    text-decoration: none
+}
+
+.CaptionBot
+{
+	display:none;
+	position:absolute;
+	bottom: 0px;
+	margin-right:5px;
+	background-color: white;
+	width:194px;
+	opacity: 0.75;
+}
+
+.CaptionTop
+{
+	position:absolute;
+	top: 0px;
+	background-color: black;
+	color: white;
+	width: 194px;
+	opacity: 0.85;
+	margin-right:5px;
+	height: 50px;
+}
+
+.BrandContent
+{
+	font-size: 14px;
+	font-family: Tahoma, sans-serif;
+	color: rgb(132,132,132);
+}
+
+.NameContent
+{
+	font-size: 11px;
+	font-family: Tahoma, sans-serif;
+	color: rgb(132,132,132);
+	margin-top:3px;
+}
+
+.PriceContent
+{
+	font-size: 12px;
+	font-family: Tahoma, sans-serif;
+	color: rgb(153,0,0);
+	margin-top:3px;
+}

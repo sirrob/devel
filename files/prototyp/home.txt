@@ -1,0 +1,7 @@
+1|files/cms/42/top.jpg|http://gomez.pl/sklep,szukaj.htm?a=s&spd=2&ska=-1&sro=-1&sna=&s_=szukaj|_self
+2|files/cms/42/01.jpg|http://gomez.pl/sklep,102,torby_portfele_nowosc_.htm|_self
+3|files/cms/42/02.jpg|http://gomez.pl/sklep,95,torebki_nowosc_.htm|_self
+4|files/cms/42/03.jpg|http://gomez.pl/sklep,szukaj.htm?a=s&spd=1&ska=31&sro=-1&sna=&s_=szukaj|_self
+5|files/cms/42/04.jpg|http://gomez.pl/sklep,98,obuwie_mokasyny_polbuty.htm|_self
+6|files/cms/42/05.jpg|http://gomez.pl/sklep,79,obuwie_baleriny_mokasyny.htm|_self
+7|files/cms/42/06.jpg|http://gomez.pl/sklep,szukaj.htm?a=s&spd=1&ska=70&sro=-1&sna=&s_=szukaj|_self

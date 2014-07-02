@@ -1,0 +1,12 @@
+/*BOX lewemenu Menu główne CMS*/
+
+.lewemenu { background:#ab7c98 url(images/menulefttop.gif) no-repeat top; padding:25px 0px 0px 0px; border-bottom:20px solid #e5e5e5;}
+.lewemenu .lewemenuin {padding:0px 15px 22px 25px; background:url(images/menuleftbot.gif) no-repeat bottom; }
+.lewemenu a {display:block; color:#fff; padding:5px 0px 5px 12px; text-decoration:none; background:url(images/lewemenu.gif) 5px 10px no-repeat; }
+.lewemenu a:hover { text-decoration:underline;}
+.lewemenu #p0linksel, .lewemenu #p0linkselstart, .lewemenu #p0linkselend {text-decoration:underline;}
+
+/*BOX boxbaner Tylko dla boksu typu Baner*/
+
+.boxbaner {margin-bottom:20px; padding:0px;}
+

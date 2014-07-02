@@ -1,0 +1,5 @@
+URL|TYTUL|TARGET
+cms,6,firma.htm|O firmie|_self
+cms,54,ochrona_prywatnosci.htm|Ochrona prywatności|_self
+cms,9,kontakt.htm|Kontakt|_self
+|Regulamin promocji|_self

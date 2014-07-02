@@ -1,0 +1,18 @@
+body {padding:0px; background:#fff;}
+.zdj_pow {color:#575757; font-size:12px; text-transform:uppercase; text-align:left; font-weight:bold; margin:0px 0px 10px 0px; background:url(../../files/cms/6/bg.png) repeat-x; height:22px; padding:10px 10px 0px 10px;}
+.zdj_d img {padding:2px; border:1px solid #8c1f24; margin:10px;}
+.zdj_d {text-align:center; background:#fff;}
+.strony {text-align:center; background:#fff; height:28px;}
+.zamk {background:#ebebeb; padding:5px; text-align:right; color:#8c1f24;}
+.pr_print table td{vertical-align:top; padding:5px;}
+.pr_print span {color:#ff0000;}
+#imt {background:url(../../files/cms/6/foot.png); padding:20px 10px 0px 10px; height:70px;width: 680px;}
+.polec_t td {padding:5px;}
+.polec_t {margin:10px;}
+.txt {width:280px;}
+.txta,textarea {border:1px solid #a5a5a5; color:#696969; margin:0px 5px; background:#fff; padding:3px; width:400px;height:120px}
+
+.messerr{color:#f00;border:1px #f00 solid;padding:5px;}
+.messinf{color:#0f0;border:1px #0f0 solid;padding:5px;}
+
+.przyc {text-align:right; padding-right:15px;}

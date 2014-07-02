@@ -1,0 +1,1 @@
+<div class="prm"><a href="{URL}">{NAZWA}<br/><img src="{IMG}" alt="{ALT}" style="width:150px" /> </a><br/><!--{IT_ETYKIETA}--><img src="{ET_PLIK}" alt="{ET_TXT}"  title="{ET_TXT}"/><br/><!--/{IT_ETYKIETA}--><em>producent: {PRODUCENT}</em><br/><strong>cena: <span>{CENA}</span> {WALUTA}</strong></div>

@@ -1,0 +1,51 @@
+.box_tytul {background:url(../../files/cms/6//box_top.png) no-repeat top #fcb085; padding:6px; text-align:center; font-weight:bold;}
+
+.prawe .box_tytul {background:none; color:#e65301; font-size:14px; font-weight:bold; border-left:15px solid #e65301; padding:4px 10px; text-align:left; margin-bottom:15px;}
+
+/*BOX menu Menu główne*/
+.menu {margin-bottom:15px; background:url(../../files/cms/6//box_foot.png) no-repeat bottom #fff; padding:0px 0px 4px 0px;}
+.menu a{display:block; padding:1px 10px 1px 10px;}
+.menu a:hover, .menu #p0linkextsel, .menu #p0linkextselstart, .menu #p0linkextselend, .menu #p0linkselstart, .menu #p0linksel, .menu #p0linkselend,  .menu #p1linkextsel, .menu #p1linkextselstart, .menu #p1linkextselend, .menu #p1linkselstart, .menu #p1linksel, .menu #p1linkselend  { text-decoration:none; color:#e65301;}
+.menu a.p1 {margin-left:10px;}
+
+
+/*BOX kodhtml*/
+
+.kodhtml { padding:0px; margin-bottom:15px;}
+
+/*BOX szukaj*/
+
+
+.szukaj { margin-bottom:15px; background:url(../../files/cms/6//box_foot.png) no-repeat bottom #fff; padding:0px 0px 4px 0px; text-align:right;}
+.szukajin {padding:10px 12px 5px 12px;}
+.szukaj input.txt {width:150px; margin-bottom:5px;}
+.szukaj select.txt {width:154px; margin-bottom:5px;}
+.szukaj .push {color:#fff; font-weight:bold;}
+
+
+/*BOX tekstb */
+.tekstb{ margin-bottom:15px; background:url(../../files/cms/6//box_foot.png) no-repeat bottom #fff; padding:0px 0px 4px 0px;}
+.tekstbin {padding:10px 10px 5px 10px;}
+
+/*BOX promocje*/
+
+.promocje {margin-bottom:15px;}
+.promocjein {padding:10px; border-left:15px solid #e65301;} 
+
+
+/*BOX wyprzedaz*/
+
+.wyprzedaz {margin-bottom:15px;}
+.wyprzedazin {padding:10px; border-left:15px solid #a70e13;} 
+.prawe .wyprzedaz .box_tytul { color:#a70e13;  border-left:15px solid #a70e13; padding:4px 10px;}
+
+
+/*BOX top10*/
+
+.top10 {margin-bottom:15px;}
+.top10in {padding:10px; border-left:15px solid #eec507;}
+.prawe .top10 .box_tytul { color:#eec507;  border-left:15px solid #eec507; padding:4px 10px;}
+
+
+.box_pr span {color:#ff0000;}
+.box_pr a { color:#e65301; font-weight:bold;}

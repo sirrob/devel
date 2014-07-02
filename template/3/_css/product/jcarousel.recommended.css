@@ -1,0 +1,88 @@
+#product-recommended-list {
+	margin-top: 0px;
+}
+
+.jcarousel-skin-recommended .jcarousel-container {
+	background: #ffffff;
+}
+
+.jcarousel-skin-recommended .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-recommended .jcarousel-container-horizontal {
+    width: 850px;
+    padding: 20px 70px 5px 70px;
+    border-top: 1px dashed #cdcecf;
+}
+
+.jcarousel-skin-recommended .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-recommended .jcarousel-clip-horizontal {
+    width:  850px;
+    height: 135px;
+}
+
+.jcarousel-skin-recommended .jcarousel-item { width: 112px; height: 135px; }
+
+.jcarousel-skin-recommended .jcarousel-item-horizontal { margin-left: 0; margin-right: 11px; }
+.jcarousel-skin-recommended .jcarousel-direction-rtl .jcarousel-item-horizontal { margin-left: 11px; margin-right: 0; }
+
+.jcarousel-skin-recommended .jcarousel-item-placeholder { background: #fff; color: #000; }
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-recommended .jcarousel-next-horizontal {
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+    background: transparent url(../../images/scroll_right.png) no-repeat;
+}
+
+.jcarousel-skin-recommended .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(../../images/scroll_left.png);
+}
+
+.jcarousel-skin-recommended .jcarousel-next-horizontal:hover,
+.jcarousel-skin-recommended .jcarousel-next-horizontal:focus { }
+
+.jcarousel-skin-recommended .jcarousel-next-horizontal:active { }
+
+.jcarousel-skin-recommended .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-recommended .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-recommended .jcarousel-next-disabled-horizontal:focus,
+.jcarousel-skin-recommended .jcarousel-next-disabled-horizontal:active { cursor: default; }
+
+.jcarousel-skin-recommended .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+    background: transparent url(../../images/scroll_left.png) no-repeat;
+}
+
+.jcarousel-skin-recommended .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background-image: url(../../images/scroll_right.png);
+}
+
+.jcarousel-skin-recommended .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-recommended .jcarousel-prev-horizontal:focus {}
+
+.jcarousel-skin-recommended .jcarousel-prev-horizontal:active {}
+
+.jcarousel-skin-recommended .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-recommended .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-recommended .jcarousel-prev-disabled-horizontal:focus,
+.jcarousel-skin-recommended .jcarousel-prev-disabled-horizontal:active { cursor: default; }

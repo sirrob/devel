@@ -1,0 +1,4 @@
+URL|TYTUL|TARGET
+asd|HOME|_self
+wqe|Mapa serwisu|_self
+132|Kontakt|_self

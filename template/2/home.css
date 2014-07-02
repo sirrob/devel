@@ -1,0 +1,18 @@
+.lewe  {display:none;}
+
+.sr2  {width:100%; margin:0px 0px 20px 0px; background:#ebebeb; padding:0px;}
+.topy {margin:0 auto; width:910px;}
+.glowny {margin:0px; padding:0px; width:100%;}
+
+.prawe  { display:none;}
+
+.ban_d {   background:#333333; padding:0px 0px 22px 0px; background:url(../../files/cms/6/glg.png) repeat-x bottom;}
+.ban_m {   background:#333333; padding:12px 0px 0px 0px; background:url(../../files/cms/6/gld.png) repeat-x top;}
+.ban_w {width:910px; margin:0 auto;}
+
+.ban {width:281px; float:left; margin-right:33px;}
+.bane {width:281px; float:left; margin-right:1px;}
+.clear {background:#ebebeb; margin-top:-1px;}
+
+.foot {margin-top:-10px;}
+#przelewy24{display:none;}

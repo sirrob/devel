@@ -1,0 +1,127 @@
+* {-webkit-font-smoothing: antialiased;}
+
+/*Text inputs*/
+.NFText {border:none; color: #969696; vertical-align:middle; font:11px/11px Tahoma, Helvetica, sans-serif; background:none; font-weight: lighter;}
+.NFTextCenter {height:16px; background:url(../../images/niceforms/standard/input.png) repeat-x 0 0; padding:2px 0; margin:0; float:left; line-height:14px;}
+.NFTextLeft, .NFTextRight {
+    width:7px; 
+    height:20px; 
+    vertical-align:middle; 
+    float:left;
+    border: solid 0px;
+}
+.NFTextLeft {background:url(../../images/niceforms/standard/input-left.png) no-repeat 0 0;}
+.NFTextRight {background:url(../../images/niceforms/standard/input-right.png) no-repeat 0 0;}
+/*Radio*/
+.NFRadio {
+    cursor:pointer; 
+    /*position:absolute; */
+    float: left;
+    display:block; 
+    width:15px; 
+    height:16px; 
+    border:1px solid transparent; 
+    background:url(../../images/niceforms/standard/radio.png) no-repeat 0 0; 
+    z-index:2;
+}
+/*Checkbox*/
+.NFCheck {
+    cursor:pointer; 
+    /*position:absolute; */
+    float: left;
+    width:16px; 
+    height:16px; 
+    border:1px solid transparent; 
+    background:url(../../images/niceforms/standard/checkbox.png) no-repeat 0 0; z-index:2; margin-top: -1px;}
+/*Standard Buttons*/
+.NFButton {width:auto; height:20px; color:#fff; padding:0 2px; background:url(../../images/niceforms/standard/button.png) repeat-x 0 0; cursor:pointer; border:none; font:10px/20px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-transform:uppercase; letter-spacing:1px; vertical-align:middle; }
+.NFButtonLeft, .NFButtonRight {width:6px; height:20px; vertical-align:middle;}
+.NFButtonLeft {background:url(../../images/niceforms/standard/button-left.png) no-repeat 0 0;}
+.NFButtonRight {background:url(../../images/niceforms/standard/button-right.png) no-repeat 0 0;}
+/* Grey Buttons */
+.grey .NFButton {width:auto; height:20px; color:#fff; padding:0 2px; background:url(images/grey/button.png) repeat-x 0 0; cursor:pointer; border:none; font:10px/20px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-transform:uppercase; letter-spacing:1px; vertical-align:middle; }
+.grey .NFButtonLeft, .grey .NFButtonRight {width:6px; height:20px; vertical-align:middle;}
+.grey .NFButtonLeft {background:url(images/grey/button-left.png) no-repeat 0 0;}
+.grey .NFButtonRight {background:url(images/grey/button-right.png) no-repeat 0 0;}
+/* White Buttons */
+.white .NFButton {width:auto; height:20px; color:#969696; padding:0 2px; background:url(images/white/button.png) repeat-x 0 0; cursor:pointer; border:none; font:10px/20px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-transform:uppercase; letter-spacing:1px; vertical-align:middle; }
+.white .NFButtonLeft, .white .NFButtonRight {width:6px; height:20px; vertical-align:middle;}
+.white .NFButtonLeft {background:url(images/white/button-left.png) no-repeat 0 0;}
+.white .NFButtonRight {background:url(images/white/button-right.png) no-repeat 0 0;}
+
+
+/*Textareas*/
+.NFTextarea {border:none; background:none; font:11px/13px Tahoma, Helvetica, sans-serif; color: #969696; margin:0;}
+.NFTextareaTop, .NFTextareaBottom {height:5px; clear:both; float:none; padding-right:10px;}
+.NFTextareaTop {background:url(../../images/niceforms/standard/textarea-tr.png) no-repeat 100% 0;}
+.NFTextareaBottom {background:url(../../images/niceforms/standard/textarea-br.png) no-repeat 100% 0; margin-bottom:5px;}
+.NFTextareaTopLeft, .NFTextareaBottomLeft {width:5px; height:5px;}
+.NFTextareaTopLeft {background:#fff url(../../images/niceforms/standard/textarea-tl.png) no-repeat 0 0;}
+.NFTextareaBottomLeft {background:#fff url(../../images/niceforms/standard/textarea-bl.png) no-repeat 0 0;}
+.NFTextareaLeft, .NFTextareaRight, .NFTextareaLeftH, .NFTextareaRightH {float:left; padding-bottom:5px;}
+.NFTextareaLeft, .NFTextareaLeftH {width:5px;}
+.NFTextareaLeft {background:url(../../images/niceforms/standard/textarea-l-off.png) repeat-y 0 0;}
+.NFTextareaLeftH {background:url(../../images/niceforms/standard/textarea-l-over.png) repeat-y 0 0;}
+.NFTextareaRight, .NFTextareaRightH {padding-right:5px; padding-bottom:0;}
+.NFTextareaRight {background:url(../../images/niceforms/standard/textarea-r-off.png) repeat-y 100% 0;}
+.NFTextareaRightH {background:url(../../images/niceforms/standard/textarea-r-over.png) repeat-y 100% 100%;}
+/*Files*/
+.NFFileButton {padding-bottom:0; vertical-align:bottom; cursor:pointer; background:url(../../images/niceforms/standard/file.png) no-repeat 0 0; width:70px; height:20px;}
+.NFFile {position:relative; margin-bottom:5px;}
+.NFFile input.NFhidden {position:relative; filter:alpha(opacity=0); opacity:0; z-index:2; cursor:pointer; text-align:left;}
+.NFFileNew {position:absolute; top:0px; left:0px; z-index:1;}
+/*Selects*/
+.NFSelect {height:20px; position:absolute; border:1px solid transparent;}
+.NFSelectLeft {float:left; width:7px; height:20px; background:url(../../images/niceforms/standard/select-left.png) no-repeat 0 0; vertical-align:middle;}
+.NFSelectRight {height:20px; width:auto; background:url(../../images/niceforms/standard/select-right.png) no-repeat 100% 0; cursor:pointer; font:12px/20px Tahoma, Helvetica, sans-serif; color:#969696; padding-left:3px; margin-left:7px;}
+.NFSelectTarget {position:absolute; background:none; margin-left:-16px; margin-top:16px; z-index:3; left:0; top:0; padding-bottom:13px;}
+.NFSelectOptions {
+    position:relative; 
+    background:#ffffff; 
+    margin-left:16px; 
+    margin-top:0; 
+    list-style:none; 
+    padding:4px 0; 
+    font:12px/16px Tahoma, Helvetica, sans-serif; 
+    z-index:4; 
+    /*max-height:100px; */
+    max-height: 200px;
+    overflow-y:auto; 
+    overflow-x:hidden; 
+    left:0px; 
+    top:0; 
+    border-left: 1px solid #cccccc; 
+    border-right: 1px solid #cccccc; 
+    border-bottom: 1px solid #cccccc; 
+    border-bottom-right-radius: 7px; 
+    border-bottom-left-radius: 7px; 
+}
+.NFSelectOptions li {padding-bottom:1px; }
+.NFSelectOptions a {display:block; text-decoration:none; color:#969696; padding:2px 5px 2px 9px; background:none;}
+.NFSelectOptions a.NFOptionActive {background:#cccccc; color: #fff;}
+.NFSelectOptions a:hover {background:#969696; color: #fff;}
+/*Multiple Selects*/
+.NFMultiSelect {border:0; background:none; margin:0;}
+.NFMultiSelectTop, .NFMultiSelectBottom {height:5px; clear:both; float:none; padding-right:10px;}
+.NFMultiSelectTop {background:url(../../images/niceforms/standard/textarea-tr.png) no-repeat 100% 0;}
+.NFMultiSelectBottom {background:url(../../images/niceforms/standard/textarea-br.png) no-repeat 100% 0; margin-bottom:5px;}
+.NFMultiSelectTopLeft, .NFMultiSelectBottomLeft {width:5px; height:5px;}
+.NFMultiSelectTopLeft {background:#fff url(../../images/niceforms/standard/textarea-tl.png) no-repeat 0 0;}
+.NFMultiSelectBottomLeft {background:#fff url(../../images/niceforms/standard/textarea-bl.png) no-repeat 0 0;}
+.NFMultiSelectLeft, .NFMultiSelectRight, .NFMultiSelectLeftH, .NFMultiSelectRightH {float:left; padding-bottom:5px;}
+.NFMultiSelectLeft, .NFMultiSelectLeftH {width:5px;}
+.NFMultiSelectLeft {background:url(../../images/niceforms/standard/textarea-l-off.png) repeat-y 0 0;}
+.NFMultiSelectLeftH {background:url(../../images/niceforms/standard/textarea-l-over.png) repeat-y 0 0;}
+.NFMultiSelectRight, .NFMultiSelectRightH {padding-right:5px; padding-bottom:0;}
+.NFMultiSelectRight {background:url(../../images/niceforms/standard/textarea-r-off.png) repeat-y 100% 0;}
+.NFMultiSelectRightH {background:url(../../images/niceforms/standard/textarea-r-over.png) repeat-y 100% 0;}
+
+/*Focused*/
+.NFfocused {border:1px solid #a6131d; border-radius: 7px;}
+/*Hovered*/
+.NFh {background-position:0 100%;}
+.NFhr {background-position:100% 100%;}
+/*Hidden*/
+.NFhidden {opacity:0;filter: alpha(opacity=0); z-index:-1; position:relative;}
+/*Safari*/
+select, input, textarea, button {outline:none; resize:none;}

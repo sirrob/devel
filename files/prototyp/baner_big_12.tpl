@@ -1,0 +1,1 @@
+<div class="bbig12">{BANER1}</div><div class="bbig12">{BANER2}</div>

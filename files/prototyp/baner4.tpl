@@ -1,0 +1,1 @@
+<div style="float:left;padding-right: 6px;">{BANER1}</div><div class="float: left">{BANER2}</div>

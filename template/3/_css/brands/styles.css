@@ -1,0 +1,17 @@
+#breadcrumb { margin: 20px 0px; }
+#breadcrumb span { text-decoration: underline; }
+#breadcrumb a { color: #969696; text-decoration: none; }
+#breadcrumb a:hover { text-decoration: none; color: #a7131c; }
+
+
+#brands-container { 
+    margin: 0px 0px 10px 0px; 
+   /* border: solid 1px red;*/
+    width: 996px;
+}
+
+.box { width: 155px; height: 105px; overflow: hidden; margin: 0px 9px 9px 0px; float: left; border: 1px solid #ededed; }
+.box:nth-child(6n+6) { margin-right: 0px; }
+.box img.logotype { margin: 25px 15px; }
+
+.stripped { background: url(../../images/strip_lines.png) repeat; }

@@ -1,0 +1,11 @@
+.biggertext {
+font-size:15px;
+}
+
+.message {border:#000 solid 1px;margin:50px auto;width:400px;background:#8c1f24;color:#fff;font-size:13px;text-align:center;padding:30px;font-weight:bold;}
+
+.lista {width:99%; border-collapse:collapse; margin:5px 0px;}
+.lista td{border:1px #fff solid; padding:5px;}
+.lista .rh{text-align:center; font-weight:bold; background:#ebebeb; padding:5px;}
+.lista .r0{background:#fff;}
+.lista .r1{background:#ebebeb;}

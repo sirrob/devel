@@ -1,0 +1,50 @@
+.ic_container {
+    vertical-align:baseline;
+    margin:0px;
+    position:relative;
+    /*-moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -khtml-border-radius:10px;
+    -moz-box-shadow: 0 1px 3px #888;
+    -webkit-box-shadow: 0 1px 3px #888;*/
+}
+.ic_title { width: 174px; height: 50px; background-color: rgba(0,0,0,0.8); color: #ffffff; font-size: 14px; position: absolute; top: 0px; left: 0px; overflow: hidden; line-height: 50px; padding: 0px 10px; text-transform: uppercase; }
+.overlay{
+    opacity:0.3;
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}
+.ic_caption{
+    position:absolute;    
+    opacity:0.6;   
+    overflow:hidden;
+    margin:0px;
+    padding: 0px 0px 10px 0px;
+    left:0px;
+    right:0px;
+    cursor:default;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+}
+.ic_caption p {
+	padding: 5px;
+    margin:0px;
+    text-align:left;
+    font-size:12px;
+    line-height: 14px;
+}
+
+.ic_caption a {
+	padding: 5px;
+    font-size:11px;
+    color: #373737;
+    text-decoration: underline;
+}
+
+.ic_caption a {
+    color: #000000;
+    text-decoration: underline;
+}

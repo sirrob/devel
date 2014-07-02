@@ -1,0 +1,143 @@
+/*
+ * CSS Styles that are needed by jScrollPane for Gomez Shop
+ * Created by Marcin Borowski [mborowski@mindgroup.pl]
+ */
+
+ .jspContainer
+ {
+ 	overflow: hidden;
+ 	position: relative;
+ }
+
+ .jspPane
+ {
+ 	position: absolute;
+ }
+
+ .jspVerticalBar
+ {
+ 	position: absolute;
+ 	top: 0;
+ 	right: 0;
+ 	width: 17px;
+ 	height: 100%;
+ 	background: transparent;
+ }
+
+ .jspHorizontalBar
+ {
+ 	position: absolute;
+ 	bottom: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 17px;
+ 	background: transparent;
+ }
+
+ .jspVerticalBar *,
+ .jspHorizontalBar *
+ {
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ .jspCap
+ {
+ 	display: none;
+ }
+
+ .jspHorizontalBar .jspCap
+ {
+ 	float: left;
+ }
+
+ .jspTrack
+ {
+ 	background: transparent;
+ 	border-left: 1px solid #eaeaea;
+ 	border-right: 1px solid #eaeaea;
+ 	position: relative;
+ }
+
+ #scroll-pane .jspTrack {
+ 	border: none;
+ }
+
+ .jspDrag
+ {
+ 	background: transparent url('../../images/thumb.png') no-repeat center center;
+ 	position: relative;
+ 	top: 0;
+ 	left: 0;
+ 	cursor: pointer;
+ }
+
+ #scroll-pane .jspDrag {
+ 	background: #a4a4a4 !important;
+ 	width: 5px;
+ 	margin-left: 5px;
+ 	border-radius: 5px;
+ }
+
+ .jspHorizontalBar .jspTrack,
+ .jspHorizontalBar .jspDrag
+ {
+ 	float: left;
+ 	height: 100%;
+ }
+
+ .jspArrow
+ {
+ 	background: transparent;
+ 	text-indent: -20000px;
+ 	display: block;
+ 	cursor: pointer;
+ }
+
+ .jspArrowUp {
+ 	background: transparent url('../../images/up_arrow.png') no-repeat left top;	
+ }
+
+ .jspArrowDown {
+ 	background: transparent url('../../images/down_arrow.png') no-repeat left bottom;
+ }
+
+ #scroll-pane .jspArrowUp,
+ #scroll-pane .jspArrowDown {
+ 	background: none;
+ }
+
+ .jspArrow.jspDisabled
+ {
+ 	cursor: default;
+ }
+
+ .jspVerticalBar .jspArrow
+ {
+ 	height: 17px;
+ }
+
+ .jspHorizontalBar .jspArrow
+ {
+ 	width: 17px;
+ 	float: left;
+ 	height: 100%;
+ }
+
+ .jspVerticalBar .jspArrow:focus
+ {
+ 	outline: none;
+ }
+
+ .jspCorner
+ {
+ 	background: #eeeef4;
+ 	float: left;
+ 	height: 100%;
+ }
+
+ /* Yuk! CSS Hack for IE6 3 pixel bug :( */
+ 	* html .jspCorner
+ 	{
+ 		margin: 0 -3px 0 0;
+ 	}

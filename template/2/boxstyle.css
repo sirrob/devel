@@ -1,0 +1,72 @@
+.box_tytul { color:#575757; font-size:12px; text-transform:uppercase; text-align:left; font-weight:bold; margin:0px 0px 10px 0px;}
+
+/*BOX menu Menu główne*/
+.menu {   padding:10px 10px 0px 10px;  background:#f1f1f1; border-bottom:5px solid #fff;}
+.menu a {display:block; padding:6px 15px 6px 19px; color:#6c6c6c;  margin:0px -10px 0px -10px; text-transform:lowercase; background:url(../../files/cms/6//li.gif) no-repeat 12px 11px;}
+.menu a:hover  { text-decoration:none; color:#8c1f24;}
+.menu a.p1 {padding:6px 15px 6px 19px; background:url(../../files/cms/6//li.gif) no-repeat 12px 11px #fff;  }
+
+.menu #menu_cms_p0linkextnosel, .menu #menu_cms_p0linkextnoselend, .menu #menu_cms_p0linkextnoselstart, .menu #menu_cms_p1linkextnosel, .menu #menu_cms_p1linkextnoselend, .menu #menu_cms_p1linkextnoselstart {color:#8c1f24;}
+
+.menu #menu_sklep_p0linkextnosel, .menu #menu_sklep_p0linkextnoselend, .menu #menu_sklep_p0linkextnoselstart, .menu #menu_sklep_p1linkextnosel, .menu #menu_sklep_p1linkextnoselend, .menu #menu_sklep_p1linkextnoselstart {color:#8c1f24;}
+.menu .extra {font-weight:bold;color:#8c1f24;}
+
+/*BOX menu_oferta Menu oferty*/
+.menu_oferta {   padding:10px 10px 0px 10px;  background:#f1f1f1; border-bottom:5px solid #fff;}
+.menu_oferta a {display:block; padding:6px 15px 6px 19px; color:#6c6c6c;  margin:0px -10px 0px -10px; text-transform:lowercase; background:url(../../files/cms/6//li.gif) no-repeat 12px 11px;}
+
+.menu_oferta a.p0,.menu_oferta a.extra { color:#575757; font-size:12px; text-transform:uppercase; text-align:left; font-weight:bold; margin:0px;padding:6px 0;background:url();}
+.menu_oferta a.p0:hover,.menu_oferta a.extra:hover { color:#575757; font-size:12px; text-transform:uppercase; text-align:left; font-weight:bold; margin:0px;padding:6px 0;background:url();}
+
+.menu_oferta a:hover  { text-decoration:none; color:#8c1f24;}
+.menu_oferta a.p2 {padding:6px 15px 6px 19px; background:url(../../files/cms/6//li.gif) no-repeat 12px 11px #fff;  }
+
+.menu_oferta #menu_cms_p0linkextnosel, .menu_oferta #menu_cms_p0linkextnoselend, .menu_oferta #menu_cms_p0linkextnoselstart, .menu_oferta #menu_cms_p1linkextnosel, .menu_oferta #menu_cms_p1linkextnoselend, .menu_oferta #menu_cms_p1linkextnoselstart {color:#8c1f24;}
+
+.menu_oferta #menu_sklep_p1linkextnosel, .menu_oferta #menu_sklep_p1linkextnoselend, .menu_oferta #menu_sklep_p1linkextnoselstart, .menu_oferta #menu_sklep_p2linkextnosel, .menu_oferta #menu_sklep_p2linkextnoselend, .menu_oferta #menu_sklep_p2linkextnoselstart {color:#8c1f24;}
+.menu_oferta a.extra,.menu_oferta a.extra:hover {border-top:0;}
+
+/*BOX kodhtml*/
+
+.kodhtml { padding:0px; margin-bottom:10px;}
+
+/*BOX szukaj*/
+
+
+.szukaj { margin-bottom:5px;  padding:10px 10px 10px 10px; text-align:right;  background:#ebebeb; height:140px;}
+.szukaj input.txt {width:172px; margin:0px 0px 5px 0px; font-size:11px;}
+.szukaj select.txt {width:180px; margin:0px 0px 5px 0px; font-size:11px;}
+.szukaj .push {padding:4px; color:#fff; border:0px; background:#8c1f24; font-weight:bold; margin:0 auto; display:block;  float:right; border:0px; cursor:pointer; margin:5px 0px 0px 0px;}
+
+
+/*BOX newsletter Style dla formularza NL*/
+.newsletter {  margin-bottom:5px;  padding:10px 10px 10px 10px; text-align:left;  background:#ebebeb; height:160px; line-height:17px;}
+
+.newsletter input.txt {width:172px; margin:8px 0px 5px 0px; font-size:11px;}
+.newsletter .push {padding:4px; color:#fff; border:0px; background:#8c1f24; font-weight:bold; margin:0 auto; display:block;  float:right; border:0px; cursor:pointer; margin:5px 0px 0px 0px;}
+
+
+/*BOX tekstb */
+.tekstb{ margin-bottom:15px; background:url(../../files/cms/6//box_foot.png) no-repeat bottom #fff; padding:0px 0px 4px 0px;}
+
+
+/*BOX promocje*/
+
+.promocje {margin-bottom:10px;  padding:0px 0px 10px 0px; text-align:right;  background:url(../../files/cms/6//box.png) repeat-x bottom;}
+
+
+
+/*BOX wyprzedaz*/
+
+.wyprzedaz {margin-bottom:10px;  padding:0px 0px 10px 0px; text-align:right;  background:url(../../files/cms/6//box.png) repeat-x bottom;}
+
+
+
+/*BOX top10*/
+
+.top10 {margin-bottom:10px;  padding:0px 0px 10px 0px; text-align:right;  background:url(../../files/cms/6//box.png) repeat-x bottom;}
+
+
+
+.box_pr span {color:#8b1e24;}
+.box_pr a { color:#8b1e24; font-weight:bold;}

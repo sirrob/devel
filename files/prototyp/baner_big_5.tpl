@@ -1,0 +1,1 @@
+<div class="bigbaner5">{BANER1}</div>

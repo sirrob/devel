@@ -1,0 +1,116 @@
+/* CSS Document */
+
+body { padding:68px 0px 0px 0px; margin:0px;  font-family:Tahoma, Arial, Helvetica, sans-serif; font-size:11px; background:url(../../files/cms/6/bg.png) repeat-x #e65301; color:#000;}
+img {border:0px;}
+.clear { position:relative; height:1px; line-height:1px; font-size:1px; clear:both;}
+p {padding:0px; margin:0px 0px 8px 0px;}
+form {margin:0px; padding:0px;}
+a {position:relative; text-decoration:none; color:#000; }
+a:hover {text-decoration:underline;  color:#e65301;}
+input {font-size:11px; vertical-align:middle;}
+select {font-size:11px; vertical-align:middle;}
+radio {vertical-align:middle;}
+h1 { color:#e65301; font-size:18px; font-weight:bold; border-left:15px solid #e65301; padding:0px 10px; text-align:left; margin:0px 0px 10px 0px;}
+h2 { color:#eec507; font-size:18px; font-weight:bold; border-left:15px solid #eec507; padding:0px 10px; text-align:left; margin:10px 0px 10px 0px;}
+h3 { color:#a70e13; font-size:18px; font-weight:bold; border-left:15px solid #a70e13; padding:0px 10px; text-align:left; margin:10px 0px 10px 0px;}
+h5 { color:#e65301; font-size:12px; font-weight:bold; padding:0px; text-align:left; margin:10px 0px 5px 0px;}
+.txts {width:40px;}
+.txtm {width:160px;}
+.txtl {width:260px;}
+
+
+.glowny {width:975px; margin:0 auto; padding:0px; background:url(../../files/cms/6/sr.png) repeat-y right;}
+.logo {width:178px; height:73px; position:absolute; top:13px; display:block;  background:url(../../files/cms/6/logo.png);} 
+.menutop { width:464px; height:21px; top:46px; margin-left:195px; background:url(../../files/cms/6/menu2.png) #fff; position:absolute; padding:0px 15px;}
+.menutop a {display:block; float:left; margin-right:2px; padding:4px 9px 4px 4px; background:url(../../files/cms/6/menua.png) right 8px no-repeat;}
+.menutop a#mtend {margin-right:0px; background:none;}
+.koszyk { width:494px; height:21px; top:25px; margin-left:195px; position:absolute;}
+.logowanie { position:absolute; margin-left:699px; width:276px; height:67px; top:0px; color:#999;}
+.logowanie a {color:#999; margin-right:10px;}
+.logowanie .txt { width:100px; margin-right:10px; }
+.push { padding:2px; color:#000; border:0px; background:#e65301;}
+.pushb { padding:2px; color:#fff; border:0px; background:#e65301; font-weight:bold;}
+.banerpod { width:780px;  float:right;}
+
+
+li {position:relative;}
+
+
+.lewe {width:178px; float:left; margin:0px 17px 20px 0px; padding:30px 0px 0px 0px;}
+.sr {width:528px; float:left; margin-bottom:20px; padding:10px ;}
+.sr2 {width:760px; float:left; margin-bottom:20px; padding:10px;}
+.sr3 {width:955px; float:left; margin-bottom:20px;clear:both; padding:10px;}
+.prawe {width:232px; float:right; margin:0px 0px 20px 0px; padding:10px 0px 0px 0px;}
+
+.prl {width:50%; float:left;  margin:5px 0px 5px 0px; text-align:center;}
+.prm {width:33%; float:left;  margin:5px 0px 5px 0px; text-align:center; }
+.prs {width:25%; float:left;  margin:5px 0px 5px 0px; text-align:center; }
+.produkt a {color:#e65301; font-weight:bold; padding:0px 5px;}
+.produkt a:hover {text-decoration:none;}
+.produkt img {margin:5px 0px;}
+.large {background:url(../../files/cms/6/dot.png) repeat-y center;  border-bottom:1px dotted #999999; padding:5px 0px;}
+.medium { padding:5px 0px; border-bottom:1px dotted #999999;}
+.small { padding:5px 0px; border-bottom:1px dotted #999999;}
+.produkt span {color:#ff0000;}
+.produkt {border-top:1px dotted #999999; margin:10px 0px;}
+.strony a { padding:4px; color:#fff; border:0px; background:#e65301; font-weight:bold; margin-left:5px;}
+.strony .naglgal { float:right;}
+
+.pr_img {text-align:center; width:290px; vertical-align:top;}
+.pr_opis {vertical-align:top; padding:10px 0px 0px 15px; line-height:16px; line-height:20px;}
+.pr_opis span {color:#ff0000;}
+.pr_opis li { line-height:14px;}
+.pushlink { padding:4px; color:#fff; border:0px; background:#e65301; font-weight:bold; margin:0 auto; display:block; width:125px; float:left; border:5px solid #fff;cursor:pointer;}
+a:hover.pushlink {color:#fff;}
+input.pushlink {padding:3px 0px; width:143px;}
+.primg {width:250px; height:250px; padding:20px; border:1px solid #dae3f1; margin:10px 0px 5px 0px;}
+.primg2 {border:1px solid #dae3f1; margin:0px 0px 10px 0px;}
+.primg2 img {margin:1px;}
+
+.koszyk {color:#fff;}
+.koszyk a {color:#fff; font-weight:bold; margin:0px 3px;}
+.koszyk a:hover {color:#fff;}
+.rej span {color:#ff0000;}
+.rej td {padding:3px;}
+
+.basket td {border-bottom:1px solid #dae3f1; vertical-align:top; padding:10px 5px;}
+.basket {border-collapse:collapse; width:100%;}
+.basket img {float:left; margin-right:10px;}
+.ilosc {border:1px solid #dae3f1; width:30px;}
+.iloscerror {border:1px solid #fff; width:30px; background:#ff0000; color:#fff;}
+#suma {width:80px;}
+
+
+.usert td {vertical-align:top; padding-right:10px; color:#fff;}
+.usert a {color:#fff;}
+.usert a:hover {color:#fff;}
+.usert {margin-top:10px;}
+
+.mapa {margin-bottom:10px}
+
+.naw {width:100%; margin-top:5px;}
+
+.w1 {margin-right:5px; font-weight:bold; font-size:10px;}
+.w2 {margin-right:5px; font-weight:bold; font-size:12px;}
+.w3 {margin-right:5px; font-weight:bold; font-size:14px;}
+
+
+.messerr{color:#f00;border:1px #f00 solid;padding:5px;}
+.messinf{color:#0f0;border:1px #0f0 solid;padding:5px;}
+
+.error {background:#f00; color:#fff}
+
+#imt a{text-decoration:none;color:#999;}
+#imt a:hover{text-decoration:none;color:#e65301;}
+#imt {color:#999;}
+
+.foot {padding:10px 10px 5px 205px;}
+.menufoot a { color:#e65301; padding:0px 5px; border-right:1px solid #e65301;}
+.menufoot a#mt1 {padding-left:0px;}
+.menufoot a.end {border:0px;}
+.menufoot {padding-bottom:10px;}
+
+/* Lista zakupow */
+.zamowienie {border-collapse:collapse; width:100%;margin-bottom:10px}
+.zamowienie  td {border-bottom:1px solid #dae3f1; vertical-align:top; padding:10px 5px;}
+.zamowienie #suma {font-size:14px; font-weight:bold;}

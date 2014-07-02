@@ -1,0 +1,5 @@
+/* CSS Document */
+
+.medium .pr_g {position:absolute; height:100px; width:210px; z-index:500; margin-left:-100px;}
+.medium .pr_d {position:absolute; height:60px; width:210px; z-index:500; margin:-65px 0px 0px -100px;}
+.small .pr_d {position:absolute; height:60px; width:160px; z-index:500; margin:-65px 0px 0px -80px;}
